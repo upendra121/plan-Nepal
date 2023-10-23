@@ -11,6 +11,243 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="scss/style.css">
+    <style>
+        @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Mukta:wght@200;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap");
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  background: #F1F1F1;
+}
+
+.top {
+  background: #088F33;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.top ul {
+  list-style: none;
+}
+
+.top ul li {
+  display: inline;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.logo {
+  position: absolute;
+  border: 3px solid orange;
+  top: -50px;
+  z-index: 9999;
+}
+
+.bg-light {
+  background: #0B732B !important;
+  padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  padding: 18px 17px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  background: orange;
+  color: #fff;
+  display: inline-block;
+}
+
+.carousel-caption {
+  text-align: right;
+  bottom: 30%;
+}
+
+.welcome {
+  text-align: justify;
+  color: black;
+}
+
+.title {
+  background: #0B732B;
+  color: #fff;
+  padding: 10px;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.features ul li {
+  list-style: none;
+}
+
+.features ul li::before {
+  content: '→';
+  color: green;
+  padding-right: 10px;
+}
+
+.sbox {
+  position: relative;
+  overflow: hidden;
+}
+
+.sbox img {
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.sbox:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.sbox p {
+  position: absolute;
+  bottom: 20px;
+  color: #fff;
+  background: orange;
+  padding: 10px;
+}
+
+.sbox p:hover {
+  background: #0B732B;
+}
+
+.trips .nav {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.nav-tabs .nav-link {
+  width: 100px;
+  background: #0B732B;
+  color: #fff;
+  border: none;
+}
+
+.tbox {
+  position: relative;
+}
+
+.tbox p {
+  position: absolute;
+  bottom: -16px;
+  width: 320px;
+  color: #fff;
+  background: #0B732B;
+  padding: 10px;
+}
+
+.tbox p:hover {
+  background: orange;
+}
+
+.tbox h5 {
+  position: absolute;
+  bottom: -8px;
+  right: 0px;
+  color: #fff;
+  background: orange;
+  padding: 11.5px;
+  font-size: 15px;
+}
+
+.clients {
+  background: url(https://www.plannepal.com/assets/img/testimonials/clients.jpg);
+  padding: 40px;
+}
+
+.clients .w-100 {
+  height: 200px;
+  width: 100%;
+}
+
+.accordion-button, .accordion-button:not(.collapsed) {
+  background: #0B732B;
+  color: #fff;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 13px;
+  height: 13px;
+}
+
+.ftop {
+  background: #333333;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.ftop h3 {
+  color: #0B732B;
+  padding-bottom: 10px;
+}
+
+.ftop ul {
+  list-style: none;
+}
+
+.ftop ul li {
+  padding: 7px;
+}
+
+.copyright {
+  background: #0B732B;
+  color: #fff;
+  padding: 20px;
+}
+
+.sticky1 {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99999;
+}
+
+.bg-light {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.mlogo {
+  width: 76px !important;
+  top: -3px !important;
+}
+
+.search {
+  background: #e6e6e6;
+  width: 950px;
+  height: 65px;
+  z-index: 9999;
+  position: absolute;
+  bottom: 25px;
+  padding: 10px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%;
+  border: none;
+}
+
+.search .ts {
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  display: block;
+}
+
+.form-select {
+  background: #e6e6e6;
+  color: black;
+  border: 1px solid #088F33;
+  padding: 8px;
+}
+
+.form-select:hover {
+  background: #088F33;
+  border: none;
+}
+    </style>
 </head>
 
 <body>
